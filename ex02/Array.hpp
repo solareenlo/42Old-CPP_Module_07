@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 23:45:30 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/23 02:21:15 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/23 02:27:24 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -44,9 +44,9 @@ class Array {
     }
 
     T const& operator[](unsigned int index) const {
-		if (index == std::numeric_limits<unsigned int>::max()) {
-			throw std::exception();
-		}
+        if (index == std::numeric_limits<unsigned int>::max()) {
+            throw std::exception();
+        }
         if (this->n_ < index + 1) {
             throw std::exception();
         }
