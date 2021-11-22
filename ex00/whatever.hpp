@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 17:44:16 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/22 18:08:05 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/22 18:13:26 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #define EX00_WHATEVER_HPP_
 
 template <typename T>
-void swap(T& a, T& b) {
+void swap(T const& a, T const& b) {
     T tmp;
     tmp = a;
     a = b;
@@ -22,7 +22,7 @@ void swap(T& a, T& b) {
 }
 
 template <typename T>
-T const& min(T& a, T& b) {
+T const& min(T const& a, T const& b) {
     if (a < b) {
         return a;
     }
@@ -30,7 +30,7 @@ T const& min(T& a, T& b) {
 }
 
 template <typename T>
-T const& max(T& a, T& b) {
+T const& max(T const& a, T const& b) {
     if (a > b) {
         return a;
     }
