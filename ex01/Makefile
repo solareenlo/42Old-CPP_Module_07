@@ -1,4 +1,4 @@
-# Makefile for Old-CPP Module 07 ex01, updated Mon Nov 22 18:55:26 JST 2021
+# Makefile for Old-CPP Module 07 ex01, updated Mon Nov 22 21:40:57 JST 2021
 
 SRC := main.cpp
 OBJ := main.o
@@ -16,7 +16,7 @@ OBJ_DIR := obj
 SRCS    := $(addprefix $(SRC_DIR)/, $(SRC))
 OBJS    := $(addprefix $(OBJ_DIR)/, $(OBJ))
 HEADERS := $(shell find . -type f -name '*.hpp' -print)
-CPPLINT_FILTERS := #--filter=-runtime/references,-build/include_what_you_use
+CPPLINT_FILTERS := --filter=-runtime/references#,-build/include_what_you_use
 
 .PHONY:	all
 all: $(NAME)
