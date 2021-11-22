@@ -4,3 +4,10 @@
 [![Sanitizer](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/sanitizer.yml/badge.svg)](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/sanitizer.yml)
 [![Valgrind](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/valgrind.yml/badge.svg)](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/valgrind.yml)
 [![Make on Linux](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/make_on_linux.yml/badge.svg)](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/make_on_linux.yml)
+
+## ex01
+- mapi of libft
+
+## ex00
+- [Templates cplusplus](https://www.cplusplus.com/doc/oldtutorial/templates/)
+- [Templates cppreference](https://en.cppreference.com/w/cpp/language/templates)
