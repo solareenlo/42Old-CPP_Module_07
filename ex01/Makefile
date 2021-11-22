@@ -16,7 +16,7 @@ OBJ_DIR := obj
 SRCS    := $(addprefix $(SRC_DIR)/, $(SRC))
 OBJS    := $(addprefix $(OBJ_DIR)/, $(OBJ))
 HEADERS := $(shell find . -type f -name '*.hpp' -print)
-CPPLINT_FILTERS := --filter=-runtime/references#,-build/include_what_you_use
+CPPLINT_FILTERS := --filter=-runtime/references
 
 .PHONY:	all
 all: $(NAME)
