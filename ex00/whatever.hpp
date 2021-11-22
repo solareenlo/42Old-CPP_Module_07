@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 17:44:16 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/22 18:19:39 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/22 18:35:57 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -16,15 +16,11 @@
 #include <cstdlib>
 
 template <typename T>
-void swap(T* a, T* b) {
-    if (a == NULL || b == NULL) {
-        return;
-    }
-
+void swap(T& a, T& b) {
     T tmp;
-    tmp = *a;
-    *a = *b;
-    *b = tmp;
+    tmp = a;
+    a = b;
+    b = tmp;
 }
 
 template <typename T>
