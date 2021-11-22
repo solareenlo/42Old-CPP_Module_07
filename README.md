@@ -5,6 +5,10 @@
 [![Valgrind](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/valgrind.yml/badge.svg)](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/valgrind.yml)
 [![Make on Linux](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/make_on_linux.yml/badge.svg)](https://github.com/solareenlo/42Old-CPP_Module_07/actions/workflows/make_on_linux.yml)
 
+## ex02
+- [Standard library header <stdexcept>](https://en.cppreference.com/w/cpp/header/stdexcept)
+- [Member access operators](https://en.cppreference.com/w/cpp/language/operator_member_access)
+
 ## ex01
 - mapi of libft
 
