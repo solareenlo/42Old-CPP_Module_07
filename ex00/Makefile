@@ -37,18 +37,22 @@ lint:
 .PHONY: leak
 leak: CFLAGS += -g -fsanitize=leak
 leak: re
+leak: test
 
 .PHONY: address
 address: CFLAGS += -g -fsanitize=address
 address: re
+address: test
 
 .PHONY: thread
 thread: CFLAGS += -g -fsanitize=thread
 thread: re
+thread: test
 
 .PHONY: memory
 memory: CFLAGS += -g -fsanitize=memory
 memory: re
+memory: test
 
 .PHONY: clean
 clean:
