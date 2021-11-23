@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 01:12:27 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/23 18:12:03 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/23 18:18:06 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ int main(int, char**) {
     for (int i = 0; i < MAX_VAL; i++) {
         numbers[i] = rand();
     }
-    //delete[] mirror;  //
+    delete[] mirror;  //
     std::cout << std::endl;
 
     {
